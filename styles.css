@@ -1,23 +1,25 @@
+/*##########################################################*/
+/*HEADER*/
+
+
+
 .full-header {
     height: 80vh;
     width: 100%;
     background-color: #1f2937;
-
-
 }
 
 .top-header {
     display: flex;
-    padding: 60px;
-    flex-direction: row;
+    padding: 30px 60px;
     justify-content: space-between;
-    padding-top: 30px;
     flex: 1;
+    margin-bottom: 40px;
 }
 
 .left-icon ul li {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
 
 .right-links {
@@ -26,71 +28,53 @@
     gap: 10px;
 }
 
-
 ul {
     list-style-type: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     padding-left: 0px;
     display: flex;
-
 }
-
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #e5e7eb;
     padding: 15px;
 }
-
-
 
 .bottom-header {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .bottom-left {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 30vh;
-
-}
-
-.hero-text {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    color: #f9faf8;
+}
+
+.hero-text {
     width: 50vh;
     padding: 15px;
 }
 
-
 .hero-title {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 15px;
-    flex-wrap: wrap;
 }
-
 
 .hero-subtext {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
 }
 
-
 .sign-up {
-    background-color: #3882F6;
+    background-color: #3882f6;
     text-align: center;
     color: white;
     border-radius: 5px;
@@ -99,13 +83,11 @@ a {
     height: 3vh;
 }
 
-
 .bottom-right {
     display: flex;
     justify-content: center;
     margin-right: 30vh;
 }
-
 
 .image-placeholder {
     padding: 12px;
@@ -113,6 +95,7 @@ a {
 }
 
 /*####################################################################*/
+/* ARROW IMAGES SVG */
 
 .svg {
     width: 10vh;
@@ -123,7 +106,7 @@ a {
 .title {
     font-size: 36px;
     font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -142,17 +125,17 @@ a {
     align-items: center;
     margin: 10px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     margin-bottom: 10vh;
-
 }
 
 /*####################################################################*/
+/* QUOTE FROM THOR */
 
 .quote-container {
     display: flex;
     justify-content: center;
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
 }
 
 .quote-text {
@@ -170,10 +153,9 @@ a {
 }
 
 /*####################################################################*/
+/* BLUE BOX */
 
-
-
-.blue-box{
+.blue-box {
     display: flex;
     justify-content: center;
     margin: 15vh;
@@ -184,7 +166,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: #3882F6;
+    background-color: #3882f6;
     border-radius: 10px;
 }
 
@@ -192,18 +174,18 @@ a {
     flex: 1;
     margin-left: 5vh;
     font-size: 20px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     margin-bottom: 5px;
 }
 
-.blue-subtext{
+.blue-subtext {
     font-size: 16px;
     margin-top: 0;
 }
 
 .blue-button {
     padding: 10px 20px;
-    background-color:#3882F6;
+    background-color: #3882f6;
     color: #1f2937;
     border: none;
     border-radius: 5px;
@@ -214,17 +196,19 @@ a {
 }
 
 /*####################################################################*/
+/* FOOTER */
 
-
-
-.footer{
+.footer {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
 }
 
-.copyright{
-    color: #E5E7EB;
+.copyright {
+    color: #e5e7eb;
     font-size: 16px;
     text-align: center;
 }
+
+/* I'll come back here when I'm done with the course and refactor the whole thing
+I want to customize the website more...a lot more */
